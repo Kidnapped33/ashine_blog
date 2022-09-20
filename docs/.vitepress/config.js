@@ -61,6 +61,13 @@ export default {
                 ]
             },
             {
+                text: '其他',
+                collapsible: true,
+                items: [
+                    { text: 'SSR VS CSR', link: '/other/ssr_csr' },
+                ]
+            },
+            {
                 text: '好物推荐',
                 collapsible: true,
                 items: [
