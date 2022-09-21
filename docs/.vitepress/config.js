@@ -65,6 +65,7 @@ export default {
                 collapsible: true,
                 items: [
                     { text: 'SSR VS CSR', link: '/other/ssr_csr' },
+                    { text: 'git', link: '/other/git' },
                 ]
             },
             {
