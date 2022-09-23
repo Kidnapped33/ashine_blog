@@ -1,11 +1,14 @@
 export default {
-    title: 'VitePress',
-    description: 'Just playing around.',
+    lang: 'zh-CN',
+    title: 'Ashine33',
+    description: 'Ashine Blog',
+    //base: 'https://kidnapped33.github.io/.',
     themeConfig: {
         siteTitle: '前端',
         logo: '/study.svg',
         // siteTitle: false, // 禁用标题
         nav: [
+            { text: '开始', link: '/typeScript'  },
             {
                 text: '学习网站', items: [
                     {
@@ -36,16 +39,18 @@ export default {
             },
             // { text: '联系我', link: '/' },
         ],
+        
         sidebar: [
-            {
-                text: 'Vue',
-                collapsible: true,
-                items: [
-                    { text: 'Vue2', link: '/vue' },
-                    { text: 'Vue3', link: '/vue' },
-                    { text: 'pinia', link: '/vue' },
-                ]
-            },
+            // {
+            //     text: 'Vue',
+            //     collapsible: true,
+                
+            //     items: [
+            //         { text: 'Vue2', link: '/vue'},
+            //         { text: 'Vue3', link: '/typeScript'  },
+            //         { text: 'pinia', link: '/vue' },
+            //     ]
+            // },
             {
                 text: 'TypeScript',
                 collapsible: true,
@@ -76,5 +81,6 @@ export default {
                 ]
             },
         ]
-    }
+    },
+    
 }

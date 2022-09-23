@@ -1,3 +1,11 @@
+---
+title: 123321123231321
+date: 2019-08-13 09:39:50
+type: tags
+layout: tag
+# prev: '上一页'
+---
+# SSR VS CSR
 ### SSR
     * 全称：Server Side Render（服务器端渲染）
         1、页面上的内容是通过服务端渲染生成的
