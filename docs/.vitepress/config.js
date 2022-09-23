@@ -2,7 +2,7 @@ export default {
     lang: 'zh-CN',
     title: 'Ashine33',
     description: 'Ashine Blog',
-    //base: 'https://kidnapped33.github.io/.',
+    base: '/ashine_blog/',
     themeConfig: {
         siteTitle: '前端',
         logo: '/study.svg',
