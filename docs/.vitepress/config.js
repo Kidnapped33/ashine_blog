@@ -6,7 +6,8 @@ export default {
     themeConfig: {
         siteTitle: '前端',
         logo: '/study.svg',
-        // siteTitle: false, // 禁用标题
+        outlineTitle: '大纲',
+        outline: [2, 6],
         nav: [
             { text: '开始', link: '/typeScript'  },
             {
@@ -53,21 +54,21 @@ export default {
             // },
             {
                 text: 'TypeScript',
-                collapsible: true,
+                // collapsible: true,
                 items: [
                     { text: 'ts/js', link: '/typeScript' },
                 ]
             },
             {
                 text: 'Docker',
-                collapsible: true,
+                // collapsible: true,
                 items: [
                     { text: '疑难杂症', link: '/docker/dockerQuestion' },
                 ]
             },
             {
                 text: '其他',
-                collapsible: true,
+                // collapsible: true,
                 items: [
                     { text: 'SSR VS CSR', link: '/other/ssr_csr' },
                     { text: 'git', link: '/other/git' },
@@ -75,7 +76,7 @@ export default {
             },
             {
                 text: '好物推荐',
-                collapsible: true,
+                // collapsible: true,
                 items: [
                     { text: 'xxx', link: '/docker/dockerQuestion' },
                 ]

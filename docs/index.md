@@ -7,6 +7,9 @@ hero:
   name: Ashine33 
   text: 学无止境
   tagline: study and got it.
+  image:
+    src: /cat.jpg
+    alt: Ashine33
   actions:
     - theme: brand
       text: Get Started

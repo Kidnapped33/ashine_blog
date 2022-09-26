@@ -1,9 +1,8 @@
 ---
-title: 123321123231321
-date: 2019-08-13 09:39:50
-type: tags
-layout: tag
-# prev: '上一页'
+# type: tags
+# layout: tag
+# page: doc
+navbar: true
 ---
 # SSR VS CSR
 ### SSR
